@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//*******************************************/
+//* Variable Declaration
+//*******************************************/
+
+$bgColor: pink;
+$fontSize: 1.2rem;
+$fontColor: white;
+$navBgColor: #30a7c3;
+$fontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$bannerBgColor: hotpink;
+$myBorder: 2px solid brown;
+
+//*******************************************/
+//* Variable Usage
+//*******************************************/
+
+body {
+  font-family: $fontFamily;
+  background-color: $bgColor;
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+//*************** HEADER ********************/
+header {
+  background-color: $navBgColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  img {
+    width: 80px;
+    border: $myBorder;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    padding: 0.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $fontColor;
+  }
+}
