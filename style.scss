@@ -142,9 +142,25 @@ header {
   }
 }
 
+//*******************************************/
+//! IF-ElSE
+//*******************************************/
+
 //*************** Footer ********************/
 
 footer {
+  $dark: 4;
+
+  p {
+    @if $dark==1 {
+      background-color: grey;
+    } @else if $dark==2 {
+      background-color: lightgreen;
+    } @else {
+      background-color: salmon;
+    }
+  }
+
   .social-icons {
     display: flex;
     height: 10rem;

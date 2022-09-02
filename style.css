@@ -117,6 +117,9 @@ header a {
   background-color: hotpink;
 }
 
+footer p {
+  background-color: salmon;
+}
 footer .social-icons {
   display: flex;
   height: 10rem;
