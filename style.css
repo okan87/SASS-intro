@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+  font-size: 1.2rem;
+  color: white;
+}
+
+header {
+  background-color: #30a7c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header img {
+  width: 80px;
+  border: 2px solid brown;
+}
+header ul {
+  list-style-type: none;
+}
+header li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+header li:hover {
+  text-decoration: underline;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
